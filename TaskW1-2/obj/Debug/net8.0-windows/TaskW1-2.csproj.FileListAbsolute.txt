@@ -25,7 +25,6 @@ D:\Nt106-Lab\TaskW1-2\obj\Debug\net8.0-windows\TaskW1-2.GeneratedMSBuildEditorCo
 D:\Nt106-Lab\TaskW1-2\obj\Debug\net8.0-windows\TaskW1-2.AssemblyInfoInputs.cache
 D:\Nt106-Lab\TaskW1-2\obj\Debug\net8.0-windows\TaskW1-2.AssemblyInfo.cs
 D:\Nt106-Lab\TaskW1-2\obj\Debug\net8.0-windows\TaskW1-2.csproj.CoreCompileInputs.cache
-D:\Nt106-Lab\TaskW1-2\obj\Debug\net8.0-windows\TaskW1-2.sourcelink.json
 D:\Nt106-Lab\TaskW1-2\obj\Debug\net8.0-windows\TaskW1-2.dll
 D:\Nt106-Lab\TaskW1-2\obj\Debug\net8.0-windows\refint\TaskW1-2.dll
 D:\Nt106-Lab\TaskW1-2\obj\Debug\net8.0-windows\TaskW1-2.pdb
