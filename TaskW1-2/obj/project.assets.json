@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\VINH\\source\\repos\\NT106\\TaskW1-2\\TaskW1-2.csproj",
+      "projectUniqueName": "D:\\file\\Vinh\\vscode\\NT106\\TaskW1-2\\TaskW1-2.csproj",
       "projectName": "TaskW1-2",
-      "projectPath": "C:\\Users\\VINH\\source\\repos\\NT106\\TaskW1-2\\TaskW1-2.csproj",
+      "projectPath": "D:\\file\\Vinh\\vscode\\NT106\\TaskW1-2\\TaskW1-2.csproj",
       "packagesPath": "C:\\Users\\VINH\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\VINH\\source\\repos\\NT106\\TaskW1-2\\obj\\",
+      "outputPath": "D:\\file\\Vinh\\vscode\\NT106\\TaskW1-2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\VINH\\AppData\\Roaming\\NuGet\\NuGet.Config",

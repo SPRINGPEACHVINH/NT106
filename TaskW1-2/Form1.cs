@@ -135,6 +135,7 @@ namespace TaskW1_2
             {
                 result = num1 % num2;
             }
+            txtTotal = result.ToString();
         }
 
         private void btnDoc_Click(object sender, EventArgs e)
