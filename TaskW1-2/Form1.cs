@@ -135,7 +135,21 @@ namespace TaskW1_2
             {
                 result = num1 % num2;
             }
+
             txtTotal.Text = result.ToString();
+        }
+
+        private void NegateButton_Click(object sender, EventArgs e)
+        {
+            if (txtTotal.Text.StartsWith("-"))
+            {
+                txtTotal.Text = txtTotal.Text.Substring(1);
+            }
+            else if (!string.IsNullOrEmpty(txtTotal.Text) && decimal.Parse(txtTotal.Text) != 0)
+            {
+
+                txtTotal.Text = "-" + txtTotal.Text;
+            }
         }
 
         private void btnDoc_Click(object sender, EventArgs e)
