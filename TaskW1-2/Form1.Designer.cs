@@ -31,6 +31,7 @@ namespace TaskW1_2
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            txtTotal = new TextBox();
             btnequal = new Button();
             btn0 = new Button();
             btnNegate = new Button();
@@ -49,9 +50,22 @@ namespace TaskW1_2
             btnEraseAll = new Button();
             btnMod = new Button();
             btnplus = new Button();
-            txtTotal = new TextBox();
             btndivide = new Button();
             SuspendLayout();
+            // 
+            // txtTotal
+            // 
+            txtTotal.BackColor = Color.White;
+            txtTotal.BorderStyle = BorderStyle.None;
+            txtTotal.Enabled = false;
+            txtTotal.Font = new Font("Segoe UI", 12F);
+            txtTotal.Location = new Point(9, 30);
+            txtTotal.Margin = new Padding(2);
+            txtTotal.Multiline = true;
+            txtTotal.Name = "txtTotal";
+            txtTotal.ReadOnly = true;
+            txtTotal.Size = new Size(274, 60);
+            txtTotal.TabIndex = 24;
             // 
             // btnequal
             // 
@@ -265,19 +279,6 @@ namespace TaskW1_2
             btnplus.Text = "+";
             btnplus.UseVisualStyleBackColor = false;
             btnplus.Click += btn_func;
-            // 
-            // txtTotal
-            // 
-            txtTotal.BackColor = Color.White;
-            txtTotal.BorderStyle = BorderStyle.None;
-            txtTotal.Font = new Font("Segoe UI", 12F);
-            txtTotal.Location = new Point(9, 30);
-            txtTotal.Margin = new Padding(2);
-            txtTotal.Multiline = true;
-            txtTotal.Name = "txtTotal";
-            txtTotal.ReadOnly = true;
-            txtTotal.Size = new Size(274, 60);
-            txtTotal.TabIndex = 24;
             // 
             // btndivide
             // 
