@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaskW1-2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee0c939b6ce21eeb1b289e95415a1d24ded65742")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33bd56b4f7aafd432cf0ce144a4fe01674639b0c")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaskW1-2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaskW1-2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
