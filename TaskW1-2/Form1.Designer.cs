@@ -30,6 +30,7 @@ namespace TaskW1_2
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             btnequal = new Button();
             btn0 = new Button();
             btnNegate = new Button();
@@ -54,10 +55,9 @@ namespace TaskW1_2
             // 
             // btnequal
             // 
-            btnequal.Location = new Point(187, 238);
-            btnequal.Margin = new Padding(2, 2, 2, 2);
+            btnequal.Location = new Point(182, 397);
             btnequal.Name = "btnequal";
-            btnequal.Size = new Size(55, 35);
+            btnequal.Size = new Size(164, 58);
             btnequal.TabIndex = 2;
             btnequal.Text = "=";
             btnequal.UseVisualStyleBackColor = true;
@@ -65,163 +65,151 @@ namespace TaskW1_2
             // 
             // btn0
             // 
-            btn0.Location = new Point(68, 238);
-            btn0.Margin = new Padding(2, 2, 2, 2);
+            btn0.FlatAppearance.MouseDownBackColor = Color.Lime;
+            btn0.FlatAppearance.MouseOverBackColor = Color.Cyan;
+            btn0.Location = new Point(97, 397);
             btn0.Name = "btn0";
-            btn0.Size = new Size(55, 35);
+            btn0.Size = new Size(79, 58);
             btn0.TabIndex = 6;
             btn0.Text = "0";
             btn0.UseVisualStyleBackColor = true;
-            btn0.Click += btn0_Click;
+            btn0.Click += btn_num;
             // 
             // btnNegate
             // 
-            btnNegate.Location = new Point(8, 238);
-            btnNegate.Margin = new Padding(2, 2, 2, 2);
+            btnNegate.Location = new Point(11, 397);
             btnNegate.Name = "btnNegate";
-            btnNegate.Size = new Size(55, 35);
+            btnNegate.Size = new Size(79, 58);
             btnNegate.TabIndex = 7;
             btnNegate.Text = "+/-";
             btnNegate.UseVisualStyleBackColor = true;
+            btnNegate.Click += btn_func;
             // 
             // btn3
             // 
-            btn3.Location = new Point(127, 199);
-            btn3.Margin = new Padding(2, 2, 2, 2);
+            btn3.Location = new Point(181, 332);
             btn3.Name = "btn3";
-            btn3.Size = new Size(55, 35);
+            btn3.Size = new Size(79, 58);
             btn3.TabIndex = 8;
             btn3.Text = "3";
             btn3.UseVisualStyleBackColor = true;
-            btn3.Click += button9_Click;
+            btn3.Click += btn_num;
             // 
             // btn2
             // 
-            btn2.Location = new Point(68, 199);
-            btn2.Margin = new Padding(2, 2, 2, 2);
+            btn2.Location = new Point(97, 332);
             btn2.Name = "btn2";
-            btn2.Size = new Size(55, 35);
+            btn2.Size = new Size(79, 58);
             btn2.TabIndex = 9;
             btn2.Text = "2";
             btn2.UseVisualStyleBackColor = true;
-            btn2.Click += btn2_Click;
+            btn2.Click += btn_num;
             // 
             // btn1
             // 
-            btn1.Location = new Point(8, 199);
-            btn1.Margin = new Padding(2, 2, 2, 2);
+            btn1.Location = new Point(11, 332);
             btn1.Name = "btn1";
-            btn1.Size = new Size(55, 35);
+            btn1.Size = new Size(79, 58);
             btn1.TabIndex = 10;
             btn1.Text = "1";
             btn1.UseVisualStyleBackColor = true;
-            btn1.Click += button11_Click;
+            btn1.Click += btn_num;
             // 
             // btn6
             // 
-            btn6.Location = new Point(127, 157);
-            btn6.Margin = new Padding(2, 2, 2, 2);
+            btn6.Location = new Point(181, 262);
             btn6.Name = "btn6";
-            btn6.Size = new Size(55, 35);
+            btn6.Size = new Size(79, 58);
             btn6.TabIndex = 11;
             btn6.Text = "6";
             btn6.UseVisualStyleBackColor = true;
-            btn6.Click += button12_Click;
+            btn6.Click += btn_num;
             // 
             // btn5
             // 
-            btn5.Location = new Point(68, 157);
-            btn5.Margin = new Padding(2, 2, 2, 2);
+            btn5.Location = new Point(97, 262);
             btn5.Name = "btn5";
-            btn5.Size = new Size(55, 35);
+            btn5.Size = new Size(79, 58);
             btn5.TabIndex = 12;
             btn5.Text = "5";
             btn5.UseVisualStyleBackColor = true;
-            btn5.Click += btn5_Click;
+            btn5.Click += btn_num;
             // 
             // btn4
             // 
-            btn4.Location = new Point(8, 157);
-            btn4.Margin = new Padding(2, 2, 2, 2);
+            btn4.Location = new Point(11, 262);
             btn4.Name = "btn4";
-            btn4.Size = new Size(55, 35);
+            btn4.Size = new Size(79, 58);
             btn4.TabIndex = 13;
             btn4.Text = "4";
             btn4.UseVisualStyleBackColor = true;
-            btn4.Click += btn4_Click;
+            btn4.Click += btn_num;
             // 
             // btnminus
             // 
-            btnminus.Location = new Point(187, 157);
-            btnminus.Margin = new Padding(2, 2, 2, 2);
+            btnminus.Location = new Point(267, 262);
             btnminus.Name = "btnminus";
-            btnminus.Size = new Size(55, 35);
+            btnminus.Size = new Size(79, 58);
             btnminus.TabIndex = 14;
             btnminus.Text = "-";
             btnminus.UseVisualStyleBackColor = true;
-            btnminus.Click += btnminus_Click;
+            btnminus.Click += btn_func;
             // 
             // btnmultiply
             // 
-            btnmultiply.Location = new Point(187, 118);
-            btnmultiply.Margin = new Padding(2, 2, 2, 2);
+            btnmultiply.Location = new Point(267, 197);
             btnmultiply.Name = "btnmultiply";
-            btnmultiply.Size = new Size(55, 35);
+            btnmultiply.Size = new Size(79, 58);
             btnmultiply.TabIndex = 15;
             btnmultiply.Text = "x";
             btnmultiply.UseVisualStyleBackColor = true;
-            btnmultiply.Click += btnmultiply_Click;
+            btnmultiply.Click += btn_func;
             // 
             // btndivide
             // 
-            btndivide.Location = new Point(187, 79);
-            btndivide.Margin = new Padding(2, 2, 2, 2);
+            btndivide.Location = new Point(267, 132);
             btndivide.Name = "btndivide";
-            btndivide.Size = new Size(55, 35);
+            btndivide.Size = new Size(79, 58);
             btndivide.TabIndex = 16;
             btndivide.Text = "/";
             btndivide.UseVisualStyleBackColor = true;
-            btndivide.Click += btndivide_Click;
+            btndivide.Click += btn_func;
             // 
             // btn9
             // 
-            btn9.Location = new Point(127, 118);
-            btn9.Margin = new Padding(2, 2, 2, 2);
+            btn9.Location = new Point(181, 197);
             btn9.Name = "btn9";
-            btn9.Size = new Size(55, 35);
+            btn9.Size = new Size(79, 58);
             btn9.TabIndex = 17;
             btn9.Text = "9";
             btn9.UseVisualStyleBackColor = true;
-            btn9.Click += btn9_Click;
+            btn9.Click += btn_num;
             // 
             // btn8
             // 
-            btn8.Location = new Point(68, 118);
-            btn8.Margin = new Padding(2, 2, 2, 2);
+            btn8.Location = new Point(97, 197);
             btn8.Name = "btn8";
-            btn8.Size = new Size(55, 35);
+            btn8.Size = new Size(79, 58);
             btn8.TabIndex = 18;
             btn8.Text = "8";
             btn8.UseVisualStyleBackColor = true;
-            btn8.Click += btn8_Click;
+            btn8.Click += btn_num;
             // 
             // btn7
             // 
-            btn7.Location = new Point(8, 118);
-            btn7.Margin = new Padding(2, 2, 2, 2);
+            btn7.Location = new Point(11, 197);
             btn7.Name = "btn7";
-            btn7.Size = new Size(55, 35);
+            btn7.Size = new Size(79, 58);
             btn7.TabIndex = 19;
             btn7.Text = "7";
             btn7.UseVisualStyleBackColor = true;
-            btn7.Click += btn7_Click;
+            btn7.Click += btn_num;
             // 
             // btndel
             // 
-            btndel.Location = new Point(127, 79);
-            btndel.Margin = new Padding(2, 2, 2, 2);
+            btndel.Location = new Point(181, 132);
             btndel.Name = "btndel";
-            btndel.Size = new Size(55, 35);
+            btndel.Size = new Size(79, 58);
             btndel.TabIndex = 20;
             btndel.Text = "Del";
             btndel.UseVisualStyleBackColor = true;
@@ -229,10 +217,9 @@ namespace TaskW1_2
             // 
             // btnEraseAll
             // 
-            btnEraseAll.Location = new Point(68, 79);
-            btnEraseAll.Margin = new Padding(2, 2, 2, 2);
+            btnEraseAll.Location = new Point(97, 132);
             btnEraseAll.Name = "btnEraseAll";
-            btnEraseAll.Size = new Size(55, 35);
+            btnEraseAll.Size = new Size(79, 58);
             btnEraseAll.TabIndex = 21;
             btnEraseAll.Text = "C";
             btnEraseAll.UseVisualStyleBackColor = true;
@@ -240,41 +227,37 @@ namespace TaskW1_2
             // 
             // btnMod
             // 
-            btnMod.Location = new Point(8, 79);
-            btnMod.Margin = new Padding(2, 2, 2, 2);
+            btnMod.Location = new Point(11, 132);
             btnMod.Name = "btnMod";
-            btnMod.Size = new Size(55, 35);
+            btnMod.Size = new Size(79, 58);
             btnMod.TabIndex = 22;
             btnMod.Text = "%";
             btnMod.UseVisualStyleBackColor = true;
-            btnMod.Click += btnMod_Click;
+            btnMod.Click += btn_func;
             // 
             // btnplus
             // 
-            btnplus.Location = new Point(187, 199);
-            btnplus.Margin = new Padding(2, 2, 2, 2);
+            btnplus.Location = new Point(267, 332);
             btnplus.Name = "btnplus";
-            btnplus.Size = new Size(55, 35);
+            btnplus.Size = new Size(79, 58);
             btnplus.TabIndex = 23;
             btnplus.Text = "+";
             btnplus.UseVisualStyleBackColor = true;
-            btnplus.Click += btnplus_Click;
+            btnplus.Click += btn_func;
             // 
             // txtTotal
             // 
-            txtTotal.Location = new Point(8, 37);
-            txtTotal.Margin = new Padding(2, 2, 2, 2);
+            txtTotal.Location = new Point(11, 62);
             txtTotal.Multiline = true;
             txtTotal.Name = "txtTotal";
-            txtTotal.Size = new Size(233, 29);
+            txtTotal.Size = new Size(331, 46);
             txtTotal.TabIndex = 24;
-            txtTotal.TextChanged += textBox1_TextChanged;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(248, 280);
+            ClientSize = new Size(354, 467);
             Controls.Add(txtTotal);
             Controls.Add(btnplus);
             Controls.Add(btnMod);
@@ -295,10 +278,9 @@ namespace TaskW1_2
             Controls.Add(btnNegate);
             Controls.Add(btn0);
             Controls.Add(btnequal);
-            Margin = new Padding(2, 2, 2, 2);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
             Text = "Calculator";
-            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
